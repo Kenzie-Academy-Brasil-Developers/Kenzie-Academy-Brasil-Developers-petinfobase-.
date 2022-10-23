@@ -1,0 +1,27 @@
+.flex{
+    display: flex;
+}
+.justify-content{
+    justify-content: center;
+}
+.space-between{
+    justify-content: space-between;
+}
+.align-item{
+    align-items: center;
+}
+.collum{
+    flex-direction: column;
+}
+.center{
+    align-content:center;
+}
+.space-around{
+    justify-content: space-around
+}
+.reverse{
+    flex-direction: row-reverse;
+}
+.fixed{
+    position: fixed;
+}

@@ -19,8 +19,15 @@
   --alert100: "hsl(349, 57%, 50%)";
   --alert200: "hsl(349, 69%, 55%)";
   --sucess100: "hsl(162, 88%, 26%)";
+  --color-grey-9:#D9D9D9;
+  --color-brand-1:#364FC7;
+  --color-grey-3: #495057;
+  --color-grey-4:#868E96;
+  --color-grey-8: #495057;
+  --color-grey-7: #F8F9FA;
+  --color-sucess: #087F5B;
+  --color-alert: #C73650;
 }
-
 body {
   font-family: "Inter, sans-serif";
 }

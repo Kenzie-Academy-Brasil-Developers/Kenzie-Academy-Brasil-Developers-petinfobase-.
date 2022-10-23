@@ -1,0 +1,65 @@
+/* Desenvolva a estilização da sua página aqui */
+body{
+    height: 100vh;
+    width: 100vw;
+}
+main{
+    height: 100vh;
+}
+aside{
+    margin-left: 6rem;
+    height: 100vh;
+}
+.check{
+    background-color: var(--color-sucess);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.card-sucess{
+    width: 30%;
+    padding: 1rem;
+    position: fixed;
+    -moz-box-shadow: 9px 9px 17px 0px rgba(0,0,0,0.75);
+    box-shadow: 9px 9px 17px 0px rgba(0,0,0,0.75);
+    height: 100px;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    animation: toastIt 2000ms ease-in forwards;
+}
+@keyframes toastIt {
+    0% {bottom: 30px; right:-100px}
+    25% {bottom: 30px; right:10px}
+    50% {bottom: 30px; right:10px}
+    100% {bottom: 30px; right:-500px}
+
+    
+}
+.card-sucess > p{
+    font-size:0.9rem;
+    width: 90%;
+}
+.card-sucess > div > p{
+    color: var(--color-sucess);
+    font-size: 1rem;
+}
+.card-sucess > div{
+    margin-bottom: 1rem;
+}
+.spiner{
+    animation: spiner 2s linear infinite
+}
+.input{
+    opacity: 50%;
+}
+@keyframes spiner {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

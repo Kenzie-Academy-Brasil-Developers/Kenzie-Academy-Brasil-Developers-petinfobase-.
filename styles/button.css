@@ -1,0 +1,103 @@
+.div-register-back > button{
+    width: 45%;
+    height: 1.5rem;
+    background: none;
+    border: 1px solid var(--color-grey-9);
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button-register{
+    height: 2.1rem;
+    border-radius: 4px;
+    width: 100%;
+    margin-top: 0.9rem;
+    border: 1px solid;
+    border: 1px solid var(--color-grey-9);
+    background: none;
+}
+.blue{
+    background-color: var(--color-brand-1);
+    border: none;
+    color: var(--color-grey-9);
+    margin-top: 1.5rem;
+}
+.clear{
+    background-color: var(--color-grey-9);
+    color: var(--color-grey-4);
+    border: 1px solid var(--color-grey-9);
+    border: 1px solid;
+    border-radius: 4px;
+    width: 4rem;
+    height: 1.6rem;
+    margin-left: 0.5rem;
+}
+.edit{
+    background-color: #fff;
+    border: 1px solid ;
+    border-radius: 4px;
+    width: 4rem;
+    height: 1.6rem;
+}
+.blue2{
+    background-color: var(--color-brand-1);
+    color: #fff;
+}
+.button-cancel{
+    color: var(--color-grey-4);
+}
+.button-back-login{
+    width: 2.5rem;
+}
+.div-register-button{
+    width: 90%;
+}
+.button-cancel-c{
+    width: 15%;
+    height: 2rem;
+    border: 1px solid var(--color-grey-4);
+    border-radius: 4px;
+    background-color: var(--color-grey-9);
+    color: var(--color-grey-3);
+    margin-right: 0.4rem;
+}
+.button-d{
+    width:auto;
+    padding-left: 8px;
+    padding-right: 8px;
+    height: 2rem;
+    border: none;
+    border-radius: 4px;
+    background-color: var(--color-alert);
+    color: #fff;
+} 
+.back{
+    background-color: var(--color-grey-9);
+    color: var(--color-grey-4);
+    opacity: 50%;
+    border-radius: 4px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    border: none;
+    width: 40px;
+    height:40px;
+}
+.back-x{
+    background-color: var(--color-grey-9);
+    color: var(--color-grey-4);
+    border-radius: 4px;
+    border: none;
+    margin-bottom: 0.7rem;
+    width: 20px;
+    height:80%;
+}
+.button-access-x{
+    width: 2rem;
+    height:2rem;
+    border-radius: 4px;
+    border: 1px solid var(--color-grey-9);
+    color: var(--color-grey-4)
+}

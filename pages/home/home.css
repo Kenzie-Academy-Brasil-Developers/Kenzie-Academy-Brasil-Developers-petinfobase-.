@@ -1,0 +1,57 @@
+body{
+    height: 100vh;
+}
+header{
+    height: 5rem;
+}
+header > h1{
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 2rem;
+   
+}
+.header-post > img{
+    width: 2rem;
+    height:2rem;
+}
+.img-user{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+}
+.img-access{
+    height: 30px;
+    width:30px;
+    border-radius: 50%;
+}
+.section-home{
+    margin-top: 2rem;
+}
+form > label{
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+form > textarea{
+    border: 1px solid var(--color-grey-4);
+}
+.card-sucess{
+    width: 30%;
+    padding: 1rem;
+    position: fixed;
+    -moz-box-shadow: 9px 9px 17px 0px rgba(0,0,0,0.75);
+    box-shadow: 9px 9px 17px 0px rgba(0,0,0,0.75);
+    height: 100px;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    animation: toastIt 2000ms ease-in forwards;
+}
+@keyframes toastIt {
+    0% {bottom: 30px; right:-250px}
+    25% {bottom: 30px; right:10px}
+    50% {bottom: 30px; right:10px}
+    100% {bottom: 30px; right:-500px}
+}
+.body-background{
+    background-image: url("../../assets/img/Rectangle\ 46.png");
+}
