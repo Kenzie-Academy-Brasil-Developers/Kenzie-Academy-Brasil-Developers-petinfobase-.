@@ -18,7 +18,7 @@ async function login(){
     })
     buttonCadastrar.addEventListener("click",(event) => {
         event.preventDefault()
-        document.location.href = "/pages/register/index.html"
+        document.location.href = "https://fuzzy-guide-a30d048a.pages.github.io/"
     })
 }
 login()
