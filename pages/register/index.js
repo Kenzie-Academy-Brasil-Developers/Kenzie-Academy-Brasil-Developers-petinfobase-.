@@ -33,6 +33,7 @@ async function valueInpusts(){
         document.location.href = "/pages/login/login.html"
     })
     backButton.addEventListener("click",(event) => {
+        event.preventDefault()
         document.location.href = "/pages/login/login.html"
     })   
     
