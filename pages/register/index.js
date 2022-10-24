@@ -36,7 +36,7 @@ async function valueInpusts(){
     backButton.addEventListener("click",(event) => {
         event.preventDefault()
         console.log("oi")
-        document.location.href = "/pages/login/login.html"
+        document.location.href = "https://fuzzy-guide-a30d048a.pages.github.io/"
     })   
     
 }
