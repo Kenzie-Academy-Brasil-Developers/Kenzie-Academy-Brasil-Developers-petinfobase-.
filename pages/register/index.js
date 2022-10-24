@@ -13,7 +13,6 @@ async function valueInpusts(){
 
     await button.addEventListener("click",(event) => {
         event.preventDefault()
-        console.log("oi")
         if(user.value !== "" && password.value !== "" && email.value !== ""){
             console.log("oi")
             const object = {
@@ -34,8 +33,6 @@ async function valueInpusts(){
         document.location.href = "/pages/login/login.html"
     })
     backButton.addEventListener("click",(event) => {
-        event.preventDefault()
-        console.log("oi")
         document.location.href = "/pages/login/login.html"
     })   
     

@@ -102,8 +102,6 @@ export async function getDelete(id){
     }
 }
 export async function editPost(body,id){
-    console.log(body)
-
     const token = localStorage.getItem("token")
     const linkRequest = "http://localhost:3333/"
     try{
@@ -119,7 +117,7 @@ export async function editPost(body,id){
         console.log(err)
     } 
 }
-function cardSucess(strig,text,ancora){
+function cardSucess(strig,text){
     const main = document.querySelector(".card-sucess2")
     main.innerHTML = ""
     main.classList = "card-sucess"

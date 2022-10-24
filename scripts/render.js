@@ -7,7 +7,6 @@ export async function createPost(arr){
     const users = localStorage.getItem("user")
     const newUser = JSON.parse(users)
     arr.filter((element,i) => {
-        const content = element.content
         const meses = ["Jan", "Fev", "Mar", "Abr", "Mai", "Jun", "Jul","Ago","Set","Out","Nov","Dez"];
     let data = new Date(element.createdAt);
     let dataFormatada = (( meses[(data.getMonth())] + " de " + data.getFullYear()));
@@ -77,7 +76,6 @@ export async function renderModal(){
     const modal = document.querySelector(".modal")
     
     await button.addEventListener("click",()=>{
-        console.log("ois")
         modal.innerHTML = ""
         modal.classList = "modal modal-back width-100 flex justify-content"
         modal.insertAdjacentHTML("afterbegin",`
@@ -153,7 +151,6 @@ async function editPost2(){
     })
 }
 async function criarModalEdit(arr){
-    console.log(arr.id)
     const modal   = document.querySelector(".modal")
     modal.classList = "modal modal-back width-100 flex justify-content"
     await modal.insertAdjacentHTML("afterend",`
@@ -178,7 +175,6 @@ async function criarModalEdit(arr){
     div.addEventListener("click",(event)=>{
         event.preventDefault()
         if(event.target.classList =="back" || event.target.classList == "button-cancel" || event.target.classList == "modal-background width-100 flex justify-content" || event.target.classList == "modal"){
-            console.log("io")
             div.remove()
             modal.className = "modal"
             div.innerHTML =""
