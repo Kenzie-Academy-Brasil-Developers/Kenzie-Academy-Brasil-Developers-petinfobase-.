@@ -28,3 +28,6 @@
 .absolute{
     position: absolute;
 }
+.around{
+    justify-content: space-around;
+}
