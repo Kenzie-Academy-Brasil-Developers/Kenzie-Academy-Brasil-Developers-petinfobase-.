@@ -90,9 +90,8 @@
     color: var(--color-grey-4);
     border-radius: 4px;
     border: none;
-    margin-bottom: 0.7rem;
-    width: 20px;
-    height:80%;
+    width: 30px;
+    height:30px;
 }
 .button-access-x{
     width: 2rem;

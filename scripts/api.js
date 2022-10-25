@@ -57,7 +57,7 @@ export async function loadingLogin(body){
         }else{
             button.innerHTML = ""
             button.innerText ="Entrar"
-            p.innerText = "Insira seu email"
+            p.innerText = "A senha está incorreta"
             input.classList.add("input-erro")
         }
        

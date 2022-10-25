@@ -1,5 +1,6 @@
 body{
     height: 100vh;
+    
 }
 header{
     height: 5rem;
@@ -11,8 +12,8 @@ header > h1{
    
 }
 .header-post > img{
-    width: 2rem;
-    height:2rem;
+    height: 35px;
+    width:  35px;
 }
 .img-user{
     width: 2.5rem;

@@ -7,32 +7,34 @@
     padding: 0px 1rem 0px 1rem;
 }
 .input-title{
-    padding-left: 5%;
-    padding: 0.5rem;
+    padding: 10px, 17px, 10px, 17px;
     border-radius: 4px;
     background-color: var(--color-grey-9);
     opacity: 50%;
     resize: none;
-
 }
 .input-text2{
     border: 1px solid var(--color-alert);
 }
 .input-title2{
     border: 1px solid var(--color-alert);
-
 }
 .input-text{
-    padding-top: 1rem;
-    padding-bottom: 10%;
-    padding-left: 1%;
-    height: 60%;
+    padding: 10px, 17px, 10px, 17px;
     border-radius: 4px;
+    height: 320px ;
     background-color: var(--color-grey-9);
     opacity: 50%; 
     resize: none;
 }
-
+.input-text-post-creat{
+    padding: 10px, 17px, 10px, 17px;
+    border-radius: 4px;
+    height: 120px ;
+    background-color: var(--color-grey-9);
+    opacity: 50%; 
+    resize: none;
+}
 label{
     margin-top: 1rem;
     margin-bottom: 1rem;

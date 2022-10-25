@@ -1,6 +1,5 @@
 import { createPost, creatHeader ,renderModal, } from "../../scripts/render.js"
 export async function preview(){
-    console.log("realment")
     const linkRequest = "http://localhost:3333/"
     const token = localStorage.getItem("token")
     try{
@@ -43,5 +42,15 @@ export async function schrechPost(){
         alert("erro")
     }
 }
-preview()
-schrechPost()
+function verification(){
+    const token = localStorage.getItem("token")
+    if(token && token !== ""){
+        preview()
+        schrechPost()
+    }else{
+        return   document.location.href = "/index.html"
+    }
+}
+verification()
+
+
