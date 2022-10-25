@@ -10,6 +10,9 @@ aside{
     margin-left: 6rem;
     height: 100vh;
 }
+.form{
+    margin-right: 6rem;
+}
 .check{
     background-color: var(--color-sucess);
     width: 20px;
